@@ -55,7 +55,7 @@ a:hover {
 .header {
     position: relative;
     background-color: #E6F0FF;
-    height: 100vh;
+    height: calc(100vh - 90px);
 }
 
 .navbar {
