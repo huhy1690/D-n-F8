@@ -159,6 +159,18 @@ a:hover {
     justify-content: space-between;
 }
 
+.client .img a {
+    display: flex;
+    width: auto;
+    height: 70px;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.client .img a:hover {
+    box-shadow: 22px 16px 14px -8px rgba(0,0,0,0.1);
+}
+
 /* =============== Guides ================== */
 
 .guides {
