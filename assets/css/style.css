@@ -44,6 +44,14 @@ a:hover {
 }
 
 /* Header */
+.fix-header {
+    position: sticky;
+    padding-top: 26px;
+    top: -26px;
+    background-color: #E6F0FF;
+    z-index: 1;
+}
+
 .header {
     position: relative;
     background-color: #E6F0FF;
@@ -53,7 +61,8 @@ a:hover {
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    background-color: #E6F0FF;
+    padding: 12px ;
 }
 
 .navbar ul {
@@ -93,7 +102,7 @@ a:hover {
 }
 
 .hero .sub-title {
-    margin-top: 130px;
+    padding-top: 130px;
     font-size: 1.8rem;
     font-weight: 500;
     line-height: 1.5;
