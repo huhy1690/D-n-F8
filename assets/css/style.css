@@ -1,0 +1,595 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color:#0F1B4C; 
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif; 
+}
+
+/* Commen */
+.content {
+    width: 1110px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 98px;
+    padding: 18px 14px;;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 12px;
+    color: #ffffff;
+    background-color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.9;
+}
+
+/* Header */
+.header {
+    position: relative;
+    background-color: #E6F0FF;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-top: 38px;
+}
+
+.navbar ul {
+    display: flex;
+    margin-left: 50px;
+}
+
+.navbar ul a {
+   font-weight: 500;
+   font-size: 1.4rem;
+   padding: 8px 14px;
+   color: #4F5361;
+}
+
+.navbar ul a:hover {
+    text-decoration: underline;
+}
+
+.navbar .actions {
+    margin-left: auto;
+}
+
+.navbar .actions-link {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.navbar .action-btn {
+    padding: 13px 14px;
+    margin-left: 18px;
+    border-radius: 8px;
+}
+
+.hero .infor {
+    width: 51%;
+}
+
+.hero .sub-title {
+    margin-top: 130px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #687690;
+}
+
+.hero .title {
+    margin-top: 8px;
+    font-size: 6.4rem; /*Linh hoạt theo nhu cầu khách hàng */
+    font-weight: 700;
+    line-height: 1.19;
+    color: #000336;
+}
+
+.hero .desc {
+    margin-top: 30px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.78;
+    color: #5A6473;
+    margin-bottom: 40px;
+}
+
+.hero-btn {
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+    width: 170px;
+    color: #ffffff;
+}
+
+.hero-img {
+    position: absolute;
+    right: calc((100vw - 1110px) / 2 - 100px);
+    bottom: 0;
+}
+
+/* ===================== Client ======================== */
+
+.client .row {
+    margin-top: 122px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.client .desc {
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.client .desc p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.25;
+    color: #7D8589;
+}
+
+.client .img {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* =============== Guides ================== */
+
+.guides {
+    margin-top: 81px;
+}
+
+.guides .content {
+    justify-content: center;
+}
+
+.guides .sub-title {
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: #000339;
+}
+
+.guides .sub-title::before {
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    right: 50%;
+    transform: translateX(50%);
+    content: "";
+    width: 41px;
+    height: 4px;
+    border-radius: 12px;
+    background-color: #000339;
+}
+
+.guides .desc {
+    width: 459px;
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.875;
+    text-align: center;
+    color: #5A6473;
+    margin-bottom: 70px;
+}
+
+.guides .list-guides {
+    text-align: center;
+    width: 685px;
+    height: 129px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.guide-item .title {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: 26px 0 10px 0;
+    color: #3B3C45;
+}
+
+.list-guides .link span {
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #0689FF;
+}
+
+.guides-btn {
+    display: block;
+    width: 170px;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* ===================== Featured: Dặc sắc ======================== */
+
+.featured {
+    padding: 110px 0;
+    margin-top: 230px;
+    background-color: #F5FAFE;
+}
+
+.featured .sub-title {
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1;
+    color: #000339;
+}
+
+.featured .row {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.featured .row .desc {
+    font-size: 1.6;
+    font-weight: 400;
+    line-height: 1.875;
+    color: #5A6473;
+}
+
+.featured .row span {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #0689FF;
+    margin-left: 8px;
+}
+
+/* =============== List items =============== */
+
+.featured .list {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.featured .list .item {
+    flex: 1;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+
+.featured .list .item .body {
+    padding: 17px 0 22px 20px;
+}
+
+.featured .thumb {
+    width: 100%;
+    height: 277px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.featured .item .title {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1;
+    color: #000339;
+}
+
+.featured .item .desc {
+    margin: 11px 0 21px 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #A3A6AB;
+}
+
+.featured .item .icon {
+    margin-left: 23px;
+}
+
+.featured .item .icon:nth-child(1) {
+    margin-left: 0;
+}
+
+.featured .item .label {
+    margin-left: 8px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1;
+    color: #444444;
+}
+
+/* ==================== Stats ==================== */
+
+.stats .content {
+    display: flex;
+    padding: 50px 0;
+}
+
+.stats .img-block,.infor {
+    width: 50%;
+}
+
+.stats .img-block .imges {
+    margin-left: 120px;
+    width: 400px;
+    height: 460px;
+    border-radius: 12px;
+}
+
+.stats .infor {
+    padding: 79px 0 0 165px;
+}
+
+.stats .infor .sub-title {
+    position: relative;
+    width: 269px;
+    color: #000339;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.28;
+}
+
+.stats .infor .sub-title::before {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    content: "";
+    width: 41px;
+    height: 4px;
+    border-radius: 12px;
+    background: #000339;
+}
+
+.stats .infor .desc {
+    margin-top: 20px;
+    width: 309px;
+    color: #5A6473;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.87;
+}
+
+.stats-trends {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 239px;
+    border-radius: 0px 0px 12px 12px;
+    background: #FFF;
+    padding: 45px 0 0 22px;
+}
+
+.stats-trends .row {
+    align-items: center;
+    display: flex;
+}
+
+.stats-trends .row .value {
+    width: 159px;
+    color: #000339;
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.stats-trends .row .icon-stats {
+    width: 25px;
+    height: 16px;
+    border-radius: 0;
+}
+
+.stats-trends .desc {
+    margin-top: 8px;
+    width: 194px;
+    color: #A7A7A7;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.stats-trends .separate {
+    margin-top: 25px;
+    width: 194px;
+    border-bottom: 1.2px solid #E9E9E9;
+}
+
+.avatar-group .avatar-non {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #1F3BB1;;
+    color: #FFF;
+    font-family: "Circular Std";
+    font-size: 0.7rem;
+    font-weight: 450;
+    text-align: center;
+    line-height: 16px;
+}
+
+.avatar-block {
+    margin-top: 26px;
+    display: flex;
+    gap: 20px 14px;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.avatar-block .avatar-group {
+    display: flex;
+}
+
+.avatar-block .avatar {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-left: -2px;
+    object-fit: cover;
+}
+
+.stats .content-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats .qty {
+    margin-top: 110px;
+    color: #000;
+    font-size: 6.4rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.stats .content-2 .qty-desc {
+    margin-top: 24px;
+    color: #7B8087;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+/* =========================== subcription ============================ */
+
+.subscription .body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+    height: 370px;
+    border-radius: 12px;
+    background-color: #063183;
+    margin-bottom: 55px;
+}
+
+.subscription .body .infor {
+    margin-left: 80px;
+}
+
+.subscription .sub-title {
+    color: #FFF;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.subscription .titlt-desc {
+    margin-top: 15px;
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.subscription-btn {
+    margin-top: 20px;
+    width: 151px;
+    color: #002366;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    background-color: #FFF;
+}
+
+.subscription .sub-scription {
+    position: absolute;
+    right: 221px;
+    bottom: -8px;
+}
+
+/* ====================== Footer ======================= */
+
+.footer {
+    padding: 50px 0 58px 0;
+}
+
+.footer .row {
+    display: flex;
+    gap: 185px;
+}
+
+.footer .row .column .heading {
+    color: #1C1C1D;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 42px;
+}
+
+.footer .row .column .list {
+    margin-top: 18px;
+    white-space: nowrap;
+}
+
+.footer .row .column a,.footer-desc  {
+    color: #7A7A7E;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.footer .row .column .footer-desc {
+    white-space: normal;
+}
+
+.footer .social {
+   margin-top: 20px;
+   display: flex;
+}
+
+.footer .social .link-web {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+}
+
+.footer .social .link-web:hover {
+    background-color: #bdc0c2;
+}
+
+.footer .row-bottom {
+    margin-top: 81px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .row-bottom .desc {
+    color: #C2C2C2;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
