@@ -4,23 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>f8-project-1</title>
+
+<!-- Favicon -->
+
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/Favicon">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/Favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/Favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/Favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/Favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/Favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/Favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/Favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/Favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./assets/Favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/Favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/Favicon/manifest.json"> <!-- Cung cấp thông tin cho trình duyệt hiểu được trang web của mình -->
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./assets/Favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+<!-- Style link -->
+
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/font/stylesheet.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <main>
+    <main id="home">
         <!-- Header -->
         <header class="fix-header">
             <div class="content">
                 <nav class="navbar">
                     <!-- Logo -->
-                    <a href="/"><img src="./assets/img/Logo.svg" alt="Besnik."></a>
+                    <a href="#"><img src="./assets/img/Logo.svg" alt="Besnik."></a>
                     <!-- Navication -->
                     <ul>
-                        <li><a href="#!">Home</a></li>
-                        <li><a href="#!">Fratures</a></li>
-                        <li><a href="#!">Service</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#freatures">Freatures</a></li>
+                        <li><a href="#service">Service</a></li>
                         <li><a href="#!">Resourse</a></li>
                         <li><a href="#!">Contact</a></li>
                     </ul>
@@ -82,7 +105,7 @@
 
         <!-- Guides -->
 
-        <div class="guides">
+        <div class="guides" id="service">
             <div class="content">
                 <h1 class="sub-title">How its works?</h1>
                 <p class="desc">Everything you need to know when you're looking to buy, rent, or sell - all in one place.</p>
@@ -118,7 +141,7 @@
 
         <!-- Featured -->
 
-        <div class="featured">
+        <div class="featured" id="freatures">
             <div class="content">
                 <header>
                     <h2 class="sub-title">Featured Properties</h2>
